@@ -1,10 +1,13 @@
 baseURL = "https://tilcoding.com/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = "PaperMod"
 
 # website title
 title = "Today I Learned Coding"
+
+# pagination
+paginate= 10
 
 
 # Author config
@@ -18,6 +21,16 @@ defaultContentLanguage = "id"
 
 # TimeZone
 timeZone = "Asia/Jakarta"
+
+# Params
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  showtoc = false
+  tocopen = false
 
 # Markup related configuration in Hugo
 [markup]
